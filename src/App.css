@@ -52,9 +52,7 @@
 	text-decoration: none;
 	color: white !important;
 }
-.sub:link {
-	color: white !important;
-}
+
 .container {
 	display: flex;
 	justify-content: space-evenly;

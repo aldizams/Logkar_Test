@@ -19,7 +19,7 @@ const Header = () => {
 					style={{ marginTop: '0', marginBottom: '0' }}
 				>
 					<Nav.Item>
-						<Nav.Link as={Link} to={'/Film'}>
+						<Nav.Link as={Link} to={'/'}>
 							<p style={{ color: 'white' }}>Film</p>
 						</Nav.Link>
 					</Nav.Item>

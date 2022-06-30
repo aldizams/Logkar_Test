@@ -8,7 +8,7 @@ function App() {
 		<div className="App">
 			<Header />
 			<Routes>
-				<Route path="/Film" element={<Home />} />
+				<Route path="/" element={<Home />} />
 				<Route path="/Planet" element={<PlanetPage />} />
 				<Route path="/Character" element={<CharaPage />} />
 			</Routes>
