@@ -16,14 +16,8 @@ const CharaPage = () => {
 		fetchApi();
 	}, [page]);
 
-	componentDidMount{
-		// this simulates an async action, after which the component will render the content
-		demoAsyncCall().then(() => this.setState({ loading: false }));
-	  }
 	console.log(api);
-	if (load) {
-		return null;
-	}
+
 	return (
 		<>
 			<div>
